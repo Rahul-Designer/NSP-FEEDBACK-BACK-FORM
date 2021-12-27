@@ -81,7 +81,6 @@ public class feedback extends Applet implements ActionListener {
             //add(cb11);
             add(b);
             b.addActionListener(this);
-
             //JDBC Connection
             System.out.println("in Try");
             Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
@@ -108,10 +107,6 @@ public class feedback extends Applet implements ActionListener {
     public void actionPerformed(ActionEvent e){
         l1.setText(email.getText());
     }
-
-
-
-
 
     public void paint(Graphics g){
         Font font25B = new Font("SansSerif", Font.BOLD,25);
